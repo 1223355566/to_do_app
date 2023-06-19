@@ -101,7 +101,8 @@ TextEditingController titlecontroller=TextEditingController();
       "dataTime":selectedDay.millisecondsSinceEpoch
     }).timeout(Duration(milliseconds: 500),onTimeout: (){
          Navigator.pop(context);
-provider.refreshTodosfromfirestore();
+provider.refreshTodosfromfirestore()
+         ;
 
 
 
