@@ -102,7 +102,9 @@ TextEditingController titlecontroller=TextEditingController();
     }).timeout(Duration(milliseconds: 500),onTimeout: (){
          Navigator.pop(context);
 provider.refreshTodosfromfirestore();
-       });
+       }
+
+       );
 
 
   }
